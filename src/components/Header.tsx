@@ -66,7 +66,7 @@ export default function Header() {
                     {isHome && (
                         <form
                             onSubmit={handleSubmit}
-                            className="md:w-1/2 2xl:w-1/3 bg-orange-400 my-48 p-10 rounded-lg shadow space-y-6"
+                            className="md:w-1/2 2xl:w-1/3 bg-orange-400 my-32 p-10 rounded-lg shadow space-y-6"
                         >
                             <div className="space-y-4">
                                 <label 
